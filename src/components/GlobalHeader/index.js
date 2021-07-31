@@ -38,7 +38,7 @@ export default class GlobalHeader extends PureComponent {
           </Menu.Item>
         </Menu>
       ),
-      localeName: window.sessionStorage.getItem('locale') ? window.sessionStorage.getItem('locale') : 'en-US',
+      localeName: window.sessionStorage.getItem('locale') ? window.sessionStorage.getItem('locale') : 'zh-CN',
       userName: window.sessionStorage.getItem('userName')
     }
   }
