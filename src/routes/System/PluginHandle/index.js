@@ -41,7 +41,7 @@ export default class PluginHandle extends Component {
       popup: "",
       pluginId:'',
       field: '',
-      localeName: window.sessionStorage.getItem('locale') ? window.sessionStorage.getItem('locale') : 'en-US',
+      localeName: window.sessionStorage.getItem('locale') ? window.sessionStorage.getItem('locale') : 'zh-CN',
     };
   }
 

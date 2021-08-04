@@ -53,10 +53,10 @@ export default class LoginPage extends Component {
       <div className={styles.main}>
         <Login onSubmit={this.handleSubmit}>
           <div>
-            <UserName name="userName" placeholder="Account" />
-            <Password name="password" placeholder="Password" />
+            <UserName name="userName" placeholder="账号" />
+            <Password name="password" placeholder="密码" />
           </div>
-          <Submit loading={submitting}>Login</Submit>
+          <Submit loading={submitting}>登陆</Submit>
         </Login>
       </div>
     );

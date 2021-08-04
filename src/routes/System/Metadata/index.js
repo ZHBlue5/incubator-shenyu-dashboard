@@ -38,7 +38,7 @@ export default class Metadata extends Component {
       selectedRowKeys: [],
       appName: "",
       popup: "",
-      localeName: window.sessionStorage.getItem('locale') ? window.sessionStorage.getItem('locale') : 'en-US',
+      localeName: window.sessionStorage.getItem('locale') ? window.sessionStorage.getItem('locale') : 'zh-CN',
     };
   }
 

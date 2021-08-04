@@ -43,7 +43,7 @@ export default class Auth extends Component {
       appKey: "",
       phone: "",
       popup: "",
-      localeName: window.sessionStorage.getItem('locale') ? window.sessionStorage.getItem('locale') : 'en-US',
+      localeName: window.sessionStorage.getItem('locale') ? window.sessionStorage.getItem('locale') : 'zh-CN',
     };
   }
 

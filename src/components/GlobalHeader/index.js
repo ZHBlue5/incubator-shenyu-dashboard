@@ -46,12 +46,12 @@ export default class GlobalHeader extends PureComponent {
   handleLocalesValueChange = value => {
     const { changeLocalName } = this.props;
     if (value.key === '0') {
-      emit.emit('change_language', 'en-US');
-      window.sessionStorage.setItem('locale', 'en-US');
+      emit.emit('change_language', 'zh-CN');
+      window.sessionStorage.setItem('locale', 'zh-CN');
       this.setState({
-        localeName: 'en-Us'
+        localeName: 'zh-CN'
       });
-      changeLocalName('en-Us');
+      changeLocalName('zh-CN');
     } else {
       emit.emit('change_language', 'zh-CN');
       window.sessionStorage.setItem('locale', 'zh-CN');
